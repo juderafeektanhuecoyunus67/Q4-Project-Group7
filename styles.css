@@ -1,0 +1,93 @@
+/*Start of styles.css*/
+
+/* Start index.html */
+
+/* General & Login */
+.login-body { background: #dcdcdc; padding: 20px 0; }
+.custom-input { background: #b2b1b1 !important; color: rgb(255, 255, 255) !important; border-radius: 0; border: 1px solid #020202; }
+.btn-cancel { background: #f07070; border: 2px solid black; font-weight: bold; }
+.btn-login { background: #27b1f6; border: 2px solid black; font-weight: bold; }
+/* End index.html */
+
+
+/* Start Editz */
+
+
+/* Input Styling */
+.custom-input {
+    background-color: #333 !important;
+    color: #FFD700 !important;
+    border: none;
+    border-radius: 0;
+}
+.custom-input::placeholder { color: #AAA; }
+
+.nav-links a {
+    text-decoration: none !important;
+    font-weight: normal !important;
+}
+
+.nav-links a:hover {
+    text-decoration: none !important;
+}
+
+/* Button Styling */
+.btn-danger-custom { background-color: #F07070; color: black; font-weight: bold; border: 1px solid black; border-radius: 10px; }
+.btn-blue-custom { background-color: #40BFFF; color: black; font-weight: bold; border: 1px solid black; border-radius: 10px; }
+
+/* Subject Cards */
+.subject-box {
+    border: 2px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 100%;
+    background: #EEE;
+    transition: transform 0.2s;
+}
+.subject-box:hover { transform: scale(1.05); cursor: pointer; }
+
+.subject-header {
+    height: 70px;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.subject-body { padding: 10px; font-size: 0.75rem; color: #444; }
+
+/* End Editz */
+
+
+
+
+
+/*  Start Notebook Box Styles */
+.subject-box { border: 3px solid rgb(0, 0, 0); border-radius: 15px; overflow: hidden; background: #ffffff; box-shadow: 4px 4px 0px rgba(0,0,0,0.1); margin-bottom: 10px; }
+.subject-header { padding: 15px; font-size: 1.5rem; font-weight: bold; border-bottom: 3px solid black; min-height: 85px; display: flex; align-items: center; color: black; }
+.subject-body { padding: 10px; font-size: 0.8rem; color: #080808; }
+
+/* Home Subjects */
+.header-homeroom { background: linear-gradient(to bottom, #A2D9CE, #73C6B6); }
+.header-library { background: linear-gradient(to right, #FF7F50, #38deed, #8E44AD); }
+
+/* Major Subjects */
+.header-science { background: linear-gradient(to bottom, #2ECC71, #239B56); }
+.header-english { background: linear-gradient(to bottom, #E74C3C, #B03A2E); }
+.header-math { background: linear-gradient(to bottom, #1023d2, #1F618D); }
+.header-social { background: linear-gradient(to bottom, #D4AC0D, #9A7D0A); }
+.header-filipino { background: linear-gradient(to bottom, #EB984E, #AF601A); }
+
+/* Minor Subjects (Sync Check) */
+.header-pe { background: linear-gradient(to bottom, #f1c40f, #d4ac0d); }
+.header-values { background: linear-gradient(to bottom, #5dade2, #2e86c1); }
+.header-ict { background: linear-gradient(to bottom, #8e44ad, #2c3e50); }
+.header-music { background: linear-gradient(to bottom, #38deed, #2de7ff); }
+.header-leadership { background: linear-gradient(to bottom, #c1bfbf, #545556); }
+.header-tle { background: linear-gradient(to bottom, #ff63d8, #ff2ecb); }
+/* End Notebook Box Styles */
+
+
+

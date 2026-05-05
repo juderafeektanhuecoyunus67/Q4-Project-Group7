@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-main-dark text-white">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black px-4">
+        <a class="navbar-brand fw-bold" href="#">
+            <img src="sparrowskyuniversity.png" alt="SPARROW SKY UNIVERSITY" width="80" height="80" class="me-2"> SPARROW SKY UNIVERSITY
+        </a>
+        <div class="ms-auto">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="dashboard.html">Dashboard</a></li>
+                <li class="nav-item"><a class="nav-link" href="notebooks.html">Virtual Notebooks</a></li>
+                <li class="nav-item"><a class="nav-link" href="tasks.html">Tasks</a></li>
+                <li class="nav-item"><a class="nav-link active" href="profile.html">Profile</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" onclick="handleLogout()">Logout</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container mt-5">
+            <h1 class="text-center border-bottom border-primary pb-3">My Profile</h1>
+            
+            <div class="profile-card mx-auto mt-5">
+                <div class="profile-img-container mx-auto">
+                    <img src="orangepfp.png" alt="Profile" class="img-fluid rounded-circle">
+                </div>
+                <h2 class="text-center mt-3">Marco Christian D. Zambales</h2>
+                
+                <div class="profile-info-box mt-4">
+                    <p><strong>Student Name:</strong> Marco Christian D. Zambales</p>
+                    <p><strong>Student ID:</strong> 1075856567</p>
+                    <p><strong>Email Address:</strong> zambales.md@obmontessoriedu.ph</p>
+                    <p><strong>Contact Number:</strong> +63 0850-667-0122</p>
+                    <p><strong>Gender:</strong> Male</p>
+                    <button class="btn btn-success fw-bold" onclick="resetPassword()">Reset Password</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="text-center py-3 bg-black footer-dark">
+        <p class="mb-0">Group 7 | 9-Sapphire ©2026</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

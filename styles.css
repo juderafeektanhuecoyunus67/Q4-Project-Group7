@@ -1,0 +1,120 @@
+/* =========================================
+   1. GLOBAL & RESET STYLES
+   ========================================= */
+body { 
+    font-family: 'Segoe UI', Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+.bg-main-dark { background-color: #373739 !important; }
+.bg-black { background-color: #121212 !important; }
+
+/* =========================================
+   2. NOTEBOOKS PAGE (notebooks.html)
+   ========================================= */
+.body-notebooks {
+    background-color: #373739 !important; 
+    color: white;
+}
+
+/* The Blue Line under the Title */
+.blue-separator {
+    width: 100%;
+    height: 3px;
+    background-color: #373d43;
+    margin: 10px 0;
+    box-shadow: 0 0 10px rgba(52, 152, 219, 0.5);
+}
+
+.section-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* SUBJECT CARDS STYLING */
+.nb-card {
+    border-radius: 12px;
+    padding: 20px;
+    min-height: 140px;
+    border: none;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    transition: transform 0.2s ease;
+}
+
+.nb-card:hover { transform: translateY(-5px); }
+
+.nb-card h3 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #f1c40f; 
+    margin-bottom: 15px;
+}
+
+.nb-card p {
+    font-size: 0.75rem;
+    line-height: 1.4;
+    color: #ecf0f1;
+    margin: 0;
+}
+
+/*  Subject Container Gradients */
+.nb-home-1 { background: linear-gradient(145deg, #709bc5, #347c87); } 
+.nb-home-2 { background: linear-gradient(145deg, #f50707, #c48843, #a6ab14, #25aa0e, #3498db, #3498db, #4b0082, #a4508b); }
+.nb-major-1 { background: linear-gradient(145deg, #1b4d3e, #2ecc71); }
+.nb-major-2 { background: linear-gradient(145deg, #78281f, #c0392b); }
+.nb-major-3 { background: linear-gradient(145deg, #1a2a6c, #1206f9); }
+.nb-major-4 { background: linear-gradient(145deg, #5c4d20, #f1c40f); }
+.nb-major-5 { background: linear-gradient(145deg, #4d3319, #d35400); }
+.nb-minor-1 { background: linear-gradient(145deg, #9da009, #9e9102); }
+.nb-minor-2 { background: linear-gradient(145deg, #2e4053, #3498db); }
+.nb-minor-3 { background: linear-gradient(145deg, #6724b3, #5300b1); }
+.nb-minor-4 { background: linear-gradient(145deg, #029da9, #0978a0); }
+.nb-minor-5 { background: linear-gradient(145deg, #8a8a8a, #424242); }
+.nb-minor-6 { background: linear-gradient(145deg, #880888, #c024c0); }
+
+/* =========================================
+   3. PROFILE PAGE (profile.html)
+   ========================================= */
+.profile-img-container {
+    width: 150px;
+    height: 150px;
+    background-color: #fd7e14;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 0 auto; /* (orangepfp.png) */
+}
+
+.profile-info-box {
+    background-color: #000;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.profile-info-box p { 
+    margin-bottom: 8px; 
+    border-bottom: 1px solid #222; 
+    padding-bottom: 4px; 
+}
+
+/* =========================================
+   4. FOOTER 
+   ========================================= */
+.footer-dark {
+    background-color: #121212;
+    color: #95a5a6;
+    font-size: 0.8rem;
+    border-top: 1px solid #444;
+}

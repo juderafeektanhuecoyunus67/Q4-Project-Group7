@@ -1,5 +1,5 @@
 /* =========================================
-   1. GLOBAL & RESET STYLES
+   0.5.. GLOBAL & RESET STYLES
    ========================================= */
 body { 
     font-family: 'Segoe UI', Arial, sans-serif; 
@@ -10,12 +10,101 @@ body {
     min-height: 100vh;
 }
 
+
+
 main {
     flex: 1;
 }
 
-.bg-main-dark { background-color: #373739 !important; }
+.bg-main-dark { background-color: #000000 !important; }
+.bg-black { background-color: #000000 !important; }
+
+/* ===================================LINK TAB EDITZ=======================================*/
+
+/*Start of styles.css*/
+
+/* Start index.html */
+
+/* General & Login */
+.text-align-center { text-align: center; }
+.container {
+
+}
+.login-body { background: #000000; padding: 20px 0; }
+.custom-input { background: #b4b0b0 !important; color: rgb(0, 0, 0) !important; border-radius: 0; border: 1px solid #020202; }
+.btn-cancel { background: #b45555; border: 2px solid black; font-weight: bold; }
+.btn-login { background: #27b1f6; border: 2px solid black; font-weight: bold; }
+.profile-img-container   {
+    height:     150px;
+}
+/* End index.html */
+
+
+
+
+
+
+
+
+/* =========================================
+   1. DASHBOARD PAGE (dashboard.html)
+   ========================================= */
+.body-dashboard {
+    background-color: #373739 !important; /* Exact Dark Gray background */
+    color: white;
+}
+
+.dashboard-content {
+    max-width: 800px;
+}
+
+.qwp-card {
+    background-color: #cbd5e1; /* Light lavender/gray card color from image */
+    color: #000;
+    border-radius: 25px;
+    padding: 25px 40px;
+    margin-bottom: 25px;
+    border: 2px solid #000;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.qwp-card h3 {
+    font-style: italic;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.qwp-card ul {
+    list-style-type: disc;
+    padding-left: 60px;
+    font-size: 1.1rem;
+}
+
+.italic { font-style: italic; }
+
+/* =========================================
+   1.5.. Navbar & Layout
+   ========================================= */
 .bg-black { background-color: #121212 !important; }
+
+.blue-separator {
+    width: 100%;
+    height: 3px;
+    background-color: #3498db;
+    margin: 10px 0;
+}
+
+.footer-dark {
+    background-color: #121212;
+    color: #95a5a6;
+    font-size: 0.8rem;
+    border-top: 1px solid #444;
+}
+
+/* ============================================
+   End of dashboard.html 
+    ============================================ */
+
 
 /* =========================================
    2. NOTEBOOKS PAGE (notebooks.html)
@@ -31,7 +120,7 @@ main {
     height: 3px;
     background-color: #373d43;
     margin: 10px 0;
-    box-shadow: 0 0 10px rgba(52, 152, 219, 0.5);
+    box-shadow: 0 0 10px rgba(4, 155, 255, 0.559);
 }
 
 .section-title {
@@ -82,6 +171,11 @@ main {
 .nb-minor-4 { background: linear-gradient(145deg, #029da9, #0978a0); }
 .nb-minor-5 { background: linear-gradient(145deg, #8a8a8a, #424242); }
 .nb-minor-6 { background: linear-gradient(145deg, #880888, #c024c0); }
+/* ============================================
+   End of notebooks.html 
+    ============================================ */
+
+
 
 /* =========================================
    3. PROFILE PAGE (profile.html)
@@ -108,9 +202,106 @@ main {
     border-bottom: 1px solid #222; 
     padding-bottom: 4px; 
 }
+/* ============================================
+   End of profile.html 
+    ============================================ */
 
 /* =========================================
-   4. FOOTER 
+   4. TASKS PAGE (tasks.html)
+   ========================================= */
+.body-tasks {
+    background-color: #373739 !important;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.task-column {
+    border: 3px solid #000;
+    border-radius: 60px; /* Highly rounded as seen in image */
+    padding: 20px;
+    min-height: 700px;
+    text-align: center;
+}
+
+.column-header {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #000;
+}
+
+/* Gradients for Activity and Submission */
+.activity-bg {
+    background: linear-gradient(to bottom, #990000 0%, #cc0000 20%, #7a0000 100%);
+}
+
+.submission-bg {
+    background: linear-gradient(to bottom, #009933 0%, #1db954 20%, #006622 100%);
+}
+
+/* Inner Task Boxes */
+.inner-task-card {
+    border: 3px solid #000;
+    padding: 15px;
+    text-align: left;
+    margin: 0 10px;
+}
+
+.activity-inner {
+    background-color: #f88379; /* Lighter red/pink for the inner box */
+}
+
+.submission-inner {
+    background-color: #98fb98; /* Pale green for the inner boxes */
+}
+
+.inner-task-card h3 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.task-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+}
+
+.task-detail {
+    font-size: 0.9rem;
+    margin-bottom: 2px;
+}
+
+/* =========================================
+   GLOBAL OVERRIDES (Ensuring consistency)
+   ========================================= */
+.blue-separator {
+    width: 100%;
+    height: 3px;
+    background-color: #3498db;
+    margin-top: 5px;
+}
+/* ============================================
+   End of tasks.html 
+    ============================================ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========================================
+    FOOTER 
    ========================================= */
 .footer-dark {
     background-color: #121212;
@@ -118,3 +309,6 @@ main {
     font-size: 0.8rem;
     border-top: 1px solid #444;
 }
+/* ============================================
+   End of FOOTER
+    ============================================ */

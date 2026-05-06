@@ -1,3 +1,5 @@
+
+/*Start of styles.css*/
 /* =========================================
    0.5.. GLOBAL & RESET STYLES
    ========================================= */
@@ -21,13 +23,17 @@ main {
 
 /* ===================================LINK TAB EDITZ=======================================*/
 
-/*Start of styles.css*/
 
-/* Start index.html */
+/* =========================================
+   1. INDEX/LOGIN PAGE (index.html)
+   ========================================= */
 
 /* General & Login */
-.text-align-center { text-align: center; }
-.container {
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    border: 2px solid #000;
+    border-radius: 15px;
 
 }
 .login-body { background: #000000; padding: 20px 0; }
@@ -37,7 +43,9 @@ main {
 .profile-img-container   {
     height:     150px;
 }
-/* End index.html */
+/* ============================================
+   End of index.html 
+    ============================================ */
 
 
 
@@ -47,7 +55,7 @@ main {
 
 
 /* =========================================
-   1. DASHBOARD PAGE (dashboard.html)
+   2. DASHBOARD PAGE (dashboard.html)
    ========================================= */
 .body-dashboard {
     background-color: #373739 !important; /* Exact Dark Gray background */
@@ -82,9 +90,9 @@ main {
 
 .italic { font-style: italic; }
 
-/* =========================================
-   1.5.. Navbar & Layout
-   ========================================= */
+/* 
+Navbar & Layout
+ */
 .bg-black { background-color: #121212 !important; }
 
 .blue-separator {
@@ -107,7 +115,7 @@ main {
 
 
 /* =========================================
-   2. NOTEBOOKS PAGE (notebooks.html)
+   3. NOTEBOOKS PAGE (notebooks.html)
    ========================================= */
 .body-notebooks {
     background-color: #373739 !important; 
@@ -178,7 +186,7 @@ main {
 
 
 /* =========================================
-   3. PROFILE PAGE (profile.html)
+   4. PROFILE PAGE (profile.html)
    ========================================= */
 .profile-img-container {
     width: 150px;
@@ -207,7 +215,7 @@ main {
     ============================================ */
 
 /* =========================================
-   4. TASKS PAGE (tasks.html)
+   5. TASKS PAGE (tasks.html)
    ========================================= */
 .body-tasks {
     background-color: #373739 !important;
